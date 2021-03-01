@@ -19,7 +19,7 @@ class EastMoneySpider:
         resStr = re.sub(r"\[","",resStr)
         resStr = re.sub(r"\]", "", resStr)
         resStrList = resStr.split(',')
-        result =  []
+        result = []
         tmpList = []
         i = 0
         for resStr in resStrList:
